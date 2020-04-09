@@ -1,4 +1,4 @@
-Consistency check
+# Consistency check
 
 About 80 TB of microCT data was moved from the long term storage (tape archive) to the new [Research storage](https://intern.unibe.ch/dienstleistungen/informatik/dienstleistungen_der_informatikdienste/dienstleistungen___ressourcen/research_storage/index_ger.html) of the University of Bern.
-This repository (namely the Jupyter notebook [ConsistencyCheck.ipynb]) aims to see if the transfer went well by reading the number of files that *should* be present from the scan log files, comparing this to the number of files *actually* present on disk and by reading a (user-defined) amount of these TIF files to check.
+This repository (namely the [Jupyter notebook `ConsistencyCheck.ipynb`](ConsistencyCheck.ipynb)) aims to see if the transfer went well by reading the number of files that *should* be present from the scan log files, comparing this to the number of files *actually* present on disk and by reading a (user-defined) amount of these TIF files to check.
